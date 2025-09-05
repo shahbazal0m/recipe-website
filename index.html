@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header id="header">
+      <div class="nav-container">
+        <div class="title">
+          <h1>Recipe Website!</h1>
+        </div>
+        <!-- Hamburger Button -->
+        <div class="hamburger" id="hamburger">☰</div>
+        <ul id="links" class="nav-links">
+          <li><a class="nav" href="#">HOME</a></li>
+          <li><a class="nav" href="#">ABOUT</a></li>
+          <li><a class="nav" href="#">RECIPE</a></li>
+          <li><a class="nav" href="#">CONTACT US</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <div class="contentBox">
+        <!-- Gulab Jamun -->
+        <section class="recipe">
+          <div class="textBox">
+            <h2>Gulab Jamun Recipe.</h2>
+            <p>
+              Indulge in the classic Indian dessert, Gulab Jamun, a heavenly
+              treat for your taste buds! Soft, spongy dumplings made from milk
+              solids are deep-fried to golden perfection and soaked in a
+              luscious saffron-infused sugar syrup.
+            </p>
+            <ul>
+              <li>Taste: Sweet and aromatic with a hint of cardamom.</li>
+              <li>Texture: Melt-in-the-mouth with a delightful syrupy soak.</li>
+              <li>
+                Perfect for: Festivals, celebrations, or anytime cravings for
+                something sweet!
+              </li>
+            </ul>
+            <h3>Ingredients.</h3>
+            <ul>
+              <li>1 cup milk powder</li>
+              <li>¼ cup all-purpose flour (maida)</li>
+              <li>2 tbsp ghee (clarified butter)</li>
+              <li>2-3 tbsp milk (for kneading)</li>
+              <li>½ tsp baking powder</li>
+              <li>Oil or ghee (for frying)</li>
+            </ul>
+          </div>
+          <div class="imgBox">
+            <img src="Gulab-jamun-recipe.jpg" alt="Gulab Jamun" />
+          </div>
+        </section>
+
+        <!-- Burfi -->
+        <section class="recipe">
+          <div class="textBox">
+            <h2>Burfi Recipe.</h2>
+            <p>
+              Experience the magic of Burfi, a rich and creamy Indian sweet that
+              has captured hearts across generations. Made with simple yet
+              wholesome ingredients like milk, sugar, and ghee, Burfi is a
+              versatile dessert that comes in a variety of flavors to suit every
+              palate.
+            </p>
+            <ul>
+              <li>Taste: Rich, creamy, and perfectly sweetened.</li>
+              <li>
+                Variety: Available in endless flavors like pistachio, mango, and
+                chocolate.
+              </li>
+              <li>
+                Versatility: A treat for both festive occasions and everyday
+                indulgence.
+              </li>
+            </ul>
+            <h3>Ingredients.</h3>
+            <ul>
+              <li>2 cups full-fat milk powder</li>
+              <li>1 cup sweetened condensed milk</li>
+              <li>2 tbsp ghee (clarified butter)</li>
+              <li>½ tsp cardamom powder</li>
+              <li>2-3 tbsp milk (if needed)</li>
+              <li>Chopped nuts (pistachios, almonds) for garnish</li>
+              <li>A few strands of saffron (optional)</li>
+            </ul>
+          </div>
+          <div class="imgBox">
+            <img src="Burfi Recipe image.jpg" alt="Burfi" />
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footerBox">
+        <p>
+          Copyright &copy; Recipe Website Pvt Ltd, 2025 All Rights Reserved.
+        </p>
+      </div>
+    </footer>
+
+    <!-- JS for Hamburger -->
+    <script>
+      const hamburger = document.getElementById("hamburger");
+      const navLinks = document.getElementById("links");
+
+      hamburger.addEventListener("click", () => {
+        navLinks.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>
