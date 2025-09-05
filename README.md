@@ -31,5 +31,4 @@ It showcases traditional Indian sweets like **Gulab Jamun** and **Burfi**, along
 
 3. bash Copy code cd foodie-website Open index.html in your browser.
 
-📧 Contact 
-Created by Shahbaz Alam – feel free to connect!
+📧 Contact Created by Shahbaz Alam – feel free to connect!
