@@ -21,13 +21,6 @@ It showcases traditional Indian sweets like **Gulab Jamun** and **Burfi**, along
 
 ---
 
-## 📷 Screenshot
-Here’s a preview of the website 👇  
-
-![Website Screenshot](website-screenshot.png)
-
----
-
 ## 📌 How to Run Locally
 1. Clone this repository:  
    ```bash
@@ -38,4 +31,5 @@ Navigate to the project folder:
 
 bash Copy code cd foodie-website Open index.html in your browser.
 
-📧 Contact Created by Shahbaz Alam – feel free to connect!
+📧 Contact 
+Created by Shahbaz Alam – feel free to connect!
