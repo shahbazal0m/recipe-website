@@ -25,11 +25,9 @@ It showcases traditional Indian sweets like **Gulab Jamun** and **Burfi**, along
 1. Clone this repository:  
    ```bash
    git clone https://github.com/shahbazal0m/recipe-website.git
-
 2. Navigate to the project folder:
-
 3. bash Copy code cd foodie-website Open index.html in your browser.
 
+---
 ## 📧 Contact
-
 Created by Shahbaz Alam – feel free to connect!
